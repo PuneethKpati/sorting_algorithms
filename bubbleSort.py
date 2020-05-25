@@ -15,9 +15,5 @@ class BubbleSort(Algorithm):
 		return array
 
 
-array = [1,1,2,4,65,4,23,321,2]
-sorter = BubbleSort()
-print(sorter)
-print(sorter.sort(array))
 
 
