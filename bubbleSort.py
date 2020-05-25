@@ -1,9 +1,9 @@
 
-class BubbleSort:
+from algorithm import Algorithm
+
+class BubbleSort(Algorithm):
 	def __init__(self):
-		self._name = 'Bubble Sort'
-		self._space = 'O(1)'
-		self._time  = 'O(n^2)'
+		super().__init__('O(n^2)', 'O(1)', 'Bubble Sort')
 
 	def sort(self, array):
 		for sortedI in range(len(array)):
@@ -14,14 +14,10 @@ class BubbleSort:
 
 		return array
 
-	def __str__(self):
-		res =  f'{self._name}:' + '\n'
-		res += 'Time Complexity: ' + self._time + '\n'
-		res += 'Space Complexity: ' + self._space
 
-		return res
-
-array = [4,3,2,1]
+array = [1,1,2,4,65,4,23,321,2]
 sorter = BubbleSort()
 print(sorter)
 print(sorter.sort(array))
+
+
