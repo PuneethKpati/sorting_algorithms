@@ -13,8 +13,6 @@ class Application(Object):
 
 		self.printArrayInstructions()
 		inputArray = input()
-		if inputArray == None or inputArray == 0:
-			print('No Array detected...')
 			
 		self.sort()
 
