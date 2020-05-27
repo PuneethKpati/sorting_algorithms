@@ -4,13 +4,15 @@ class Algorithm:
 		self._name = name
 		self._space = space
 		self._time  = time
+		
 
 	def sort(self, array):
 		return array
 
 	def __str__(self):
-		res =  f'{self._name}:' + '\n'
+		res =   '-----------------------------------------------' + '\n'
+		res +=  f'{self._name}:' + '\n'
 		res += 'Time Complexity: ' + self._time + '\n'
-		res += 'Space Complexity: ' + self._space
-
+		res += 'Space Complexity: ' + self._space + '\n'
+		res +=   '-----------------------------------------------'
 		return res

@@ -45,9 +45,3 @@ class MergeSort(Algorithm):
 			leftCursor += 1
 
 		return res
-
-
-array = [1,1,2,4,65,4,23,321,2]
-sorter = MergeSort()
-print(sorter)
-print(sorter.sort(array))
