@@ -61,7 +61,7 @@ class Application:
 
 	def printArrayInstructions(self):
 		print('Enter Array (elements separated by commas): ')
-		print('[Example Format]:1,2,3,45,200')
+		print('[Example Format]:1,2,3,45,200\n')
 		print('Enter Array: ', end='')
 
 	def algorithm(self):
